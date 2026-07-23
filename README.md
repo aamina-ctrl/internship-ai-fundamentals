@@ -1,90 +1,45 @@
-# 🐱🐶 Cats vs Dogs Image Classification
+# 🤖 AI Fundamentals
 
 ## Overview
 
-This repository contains two deep learning approaches for binary image classification of cats and dogs using TensorFlow and Keras.
+This repository documents my learning journey in Artificial Intelligence, Machine Learning, and Deep Learning through hands-on projects and practical implementations.
 
-The first implementation builds a Convolutional Neural Network (CNN) from scratch to understand the fundamentals of image classification. The second implementation uses Transfer Learning with a pretrained ResNet50 model to achieve higher accuracy by leveraging knowledge learned from the ImageNet dataset.
-
-This project demonstrates image preprocessing, data augmentation, model training, validation, prediction, and performance evaluation.
+It includes projects completed during my internship as well as self-paced projects developed while exploring new concepts, algorithms, and frameworks. The repository will continue to grow as I learn and build more AI applications.
 
 ---
-## Theoretical Learning
+## Learning Areas
 
-Before implementing the projects in this repository, I built a strong theoretical foundation in Artificial Intelligence and Deep Learning. The concepts studied include:
+Projects in this repository cover topics such as:
 
-- Introduction to Artificial Intelligence
-- Machine Learning vs Deep Learning
-- Artificial Neural Networks (ANN)
-- Convolutional Neural Networks (CNN)
+- Artificial Intelligence
+- Machine Learning
+- Deep Learning
+- Computer Vision
 - Image Classification
-- Convolution and Feature Extraction
-- Activation Functions
-- Pooling Layers
-- Forward Propagation
-- Loss Functions
-- Optimizers
-- Backpropagation
-- Overfitting and Regularization
-- Dropout
-- Data Augmentation
+- Neural Networks
 - Transfer Learning
-- Pretrained Models (ResNet50)
-- Model Evaluation using Accuracy and Loss
+- Model Evaluation
+- TensorFlow & Keras
 
-These concepts were then applied through practical implementations using TensorFlow and Keras, reinforcing both theoretical understanding and hands-on experience.
+Additional topics and projects will be added as I continue learning.
 
-## Project Structure
+---
+
+## Featured Project
+
+### 🐱🐶 Cats vs Dogs Image Classification
+
+This project was completed during my **Software Engineering & AI Internship** and demonstrates binary image classification using TensorFlow and Keras.
+
+It includes two implementations:
+
+- Custom Convolutional Neural Network (CNN)
+- Transfer Learning using ResNet50
+
+Project Folder:
 
 ```
 Cats_Dogs_Classification/
-│
-├── cats_vs_dogs.py
-├── README_CNN.md
-│
-├── cats_vs_dogs_pretrained.py
-├── README_ResNet50.md
-│
-├── PetImages/
-│   ├── train/
-│   └── test/
-│
-└── README.md
-```
-
----
-
-## Models Implemented
-
-### 1. Custom CNN
-
-- Built from scratch using TensorFlow/Keras
-- Convolution + Pooling architecture
-- Binary classification using Sigmoid activation
-
-### 2. Transfer Learning (ResNet50)
-
-- Uses pretrained ResNet50
-- ImageNet pretrained weights
-- Frozen convolutional base
-- Custom classification head
-
----
-
-## Dataset
-
-The project uses the Cats vs Dogs image classification dataset organized into separate training and testing folders.
-
-Directory structure:
-
-```
-PetImages/
-    train/
-        cats/
-        dogs/
-    test/
-        cats/
-        dogs/
 ```
 
 ---
@@ -97,57 +52,23 @@ PetImages/
 - NumPy
 - Matplotlib
 
----
-
-## Features
-
-- Image preprocessing
-- Data augmentation
-- CNN implementation from scratch
-- Transfer learning using ResNet50
-- Binary image classification
-- Accuracy and loss visualization
-- Prediction on custom images
+More technologies and frameworks will be incorporated in future projects.
 
 ---
 
-## Results
+## Future Plans
 
-| Model | Validation Accuracy |
-|--------|---------------------|
-| Custom CNN | ~60–70% |
-| ResNet50 Transfer Learning | ~90–92% |
+This repository will continue expanding with projects involving:
 
----
-
-## How to Run
-
-Install dependencies:
-
-```bash
-pip install tensorflow matplotlib numpy
-```
-
-Run the CNN model:
-
-```bash
-python cats_vs_dogs.py
-```
-
-Run the ResNet50 model:
-
-```bash
-python cats_vs_dogs_pretrained.py
-```
+- Machine Learning algorithms
+- Deep Learning architectures
+- Computer Vision
+- Natural Language Processing (NLP)
+- Model deployment
+- Real-world AI applications
 
 ---
 
-## Future Improvements
+## About
 
-- Fine-tune ResNet50
-- Add MobileNetV2 implementation
-- Improve dataset diversity
-- Deploy using Flask or Streamlit
-- Convert model to TensorFlow Lite
-
----
+This repository serves as a collection of my AI projects, documenting both my internship experience and my continued self-learning in Artificial Intelligence.
