@@ -151,7 +151,3 @@ python cats_vs_dogs_pretrained.py
 - Convert model to TensorFlow Lite
 
 ---
-
-## Author
-
-Developed by **Aamina Anwar Sheikh**
